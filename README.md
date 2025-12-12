@@ -3,7 +3,7 @@
 This repository contains Matlab and C implementations for computing viscous eigenmodes of the hyperbolic-tangent shear flow
 \(U(y)=\tanh(y)\) using a Legendre-polynomial expansion (mapping \(u=\tanh y\in[-1,1]\)) and a truncated generalized eigenvalue problem.
 
-The formulation matches the “EIGENVALUE PROBLEM” section in `viscous_hydro3.pdf` (not included here). In particular, after expansion over Legendre polynomials,
+The formulation matches the “EIGENVALUE PROBLEM” section in PRF (2025) paper. In particular, after expansion over Legendre polynomials,
 the viscous Orr–Sommerfeld problem reduces to a sparse/banded generalized eigenproblem of the form
 
 \[ \sigma\,\bar R\,\bar A = \bar Q\,\bar A + \mu\,\bar T\,\bar A \]
