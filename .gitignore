@@ -1,0 +1,20 @@
+# --- C build artifacts ---
+C/viscous_eigenvalue_solver
+C/*.o
+C/*.d
+C/*.a
+
+# Output data (C solver)
+EVC_k=*_mu=*_Nmax=*_Precision_=*_Digits=*.dat
+C/EVC_k=*_mu=*_Nmax=*_Precision_=*_Digits=*.dat
+
+# --- Matlab ---
+Matlab/*.mat
+Matlab/*.csv
+Matlab/eigenvalues.dat
+Matlab/*.asv
+Matlab/slprj/
+
+# --- Editor/OS ---
+*~
+.DS_Store
